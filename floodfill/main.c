@@ -7,7 +7,7 @@
 #include <stdlib.h>
 #include<stdint.h>
 
-int** dfs(int** image, int imageSize, int* imageColSize, int sr, int sc, int newColor, int oldColor){
+ void dfs(int** image, int imageSize, int* imageColSize, int sr, int sc, int newColor, int oldColor){
     if(image[sr][sc] == oldColor) {
         image[sr][sc] = newColor;
         // processing north pixel
