@@ -1,8 +1,8 @@
 // Note: the function isBadVersion() is given as a black box on Leetcode. Therefore this exerc
 // ise doesn't contain a Makefile or a main method.
 int firstBadVersion(int n) {
-	if(isBadVersion(0)) {
-		return 0;
+	if(isBadVersion(1)) {
+		return 1;
 	}
    int start = 1, end = n;
     while(start <= end){
