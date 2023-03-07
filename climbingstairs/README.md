@@ -4,7 +4,8 @@ https://leetcode.com/problems/climbing-stairs/
 We use dynamic programming to solve the problem
 ## DP Formula
 Basecase: `N = 1`
-In this case, we have 1 possibility. So `OPT(N=1) = 1`
+In this case, we have 2 possibility. So `OPT(N=1) = 1.
+`
 Basecase: `N = 2`
 In this case, we have 2 possibilities. Either make 2 1steps or 1 2step. So OPT(N=2) = 2.
 
