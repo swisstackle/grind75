@@ -1,4 +1,4 @@
-SELECT num AS 'ConsecutiveNums'
+SELECT DISTINCT num AS 'ConsecutiveNums'
 FROM(
 	SELECT num,
 	CASE
