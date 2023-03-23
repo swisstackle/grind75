@@ -56,5 +56,5 @@ int main(){
 	four.val = 4;
 	five.val = 5;
 	
-	printf("%d\n", longestPath(&one));
+	printf("%d\n", diameterOfBinaryTree(&one));
 }
